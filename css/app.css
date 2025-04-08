@@ -6,7 +6,123 @@
     padding: 0;
 }
 
-
-header {
-    background-color: white;
+html {
+    font-family: "Poppins", sans-serif;
 }
+
+
+body {
+    background-color: #f3f3f3;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+/*LAYOUT*/
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px; 
+}
+
+
+/* HEADER */
+
+.page-header {
+    background-color: white;
+    padding: 8px 20px;
+
+}
+
+.page-header .logo {
+    height: 40px;
+}
+
+
+
+
+/* CONTENT */
+
+.page-content {
+    padding: 30px 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+.card-header {
+    border-bottom: 3px solid #f3f3f3;
+    padding: 30px;
+}
+
+.card-body {
+    background-color: white;
+    padding: 24px 30px;
+}
+
+
+.button {
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 14px;
+    height: 30px;
+    background-color: rgb(20, 180, 243);
+}
+
+.button-outline {
+    background-color: white;
+    border: 1px solid;
+}
+
+
+/* TOBO LIST */
+
+.item-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+
+.task-icon {
+    height: 20px;
+    width: 20px;
+    border: 1px solid;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 19px;
+}
+
+
+
+.task-tag {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+.tasks-item {
+    margin-bottom: 20px;
+}
+

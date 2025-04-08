@@ -4,10 +4,104 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toboolist</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/app.css">
     </head>
     <body>
-        <header>
-            <img src="./img/Toboolist-logo.jpg" alt="Toobolist Logo">
+        <header class="page-header">
+            <img class="logo" src="./img/Toboolist-logo.jpg" alt="">
         </header>
+
+        <main class="page-content">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <button class="button">Add Task</button>
+                        <button class="button button-outline">Add Section</button>
+                    </div>
+                    
+                </div>
+                <div class="card-body">
+                    <ul class="tobo-list">
+                        <li class="item-section">
+                            <strong class="section-title">&blacktriangledown;New Task</strong>
+                            <ul class="tasks">
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Quarterly Newsletter</span>
+                                    <span class="task-tag" style="background-color: rgb(55, 148, 255);">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="tobo-list">
+                        <li class="item-section">
+                            <strong class="section-title">&blacktriangledown;Today</strong>
+                            <ul class="tasks">
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Recruting blog spot</span>
+                                    <span class="task-tag" style="background-color: rgb(55, 148, 255);">Editorial</span>
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Mobile app launch</span>
+                                    <span class="task-tag" style="background-color: rgb(161, 21, 204);">Q1 Goals</span>
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color: red;">&cross;</span>
+                                    <span class="task-title">Interview John H.</span>
+                                    <span class="task-tag" style="background-color: rgb(71, 184, 146);">Recruting</span>
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Summit update to mobile storefronts</span>
+                                    <span class="task-tag" style="background-color: rgb(236, 152, 25);">Mobile</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="tobo-list">
+                        <li class="item-section">
+                            <strong class="section-title">&blacktriangledown;Upcoming</strong>
+                            <ul class="tasks">
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color: red;">&cross;</span>
+                                    <span class="task-title">Schedule meeting with Alex</span>
+                                    
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color: rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Homepage refresh</span>
+                                    <span class="task-tag" style="background-color: rgb(226, 47, 172);">Website</span>
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Onboard new Sales team members</span>
+                                    <span class="task-tag" style="background-color: rgb(130, 196, 77);">Sales</span>
+                                </li>
+                                <li class="tasks-item">
+                                    <span class="task-icon" style="color:rgb(19, 196, 166);rgb(19, 196, 166);">&check;</span>
+                                    <span class="task-title">Review editorial calendar</span>
+                                    <span class="task-tag" style="background-color: rgb(55, 148, 255);">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+
+        </main>
+        
+        
+    </body>
+</html>
+
+
+
+  
 
